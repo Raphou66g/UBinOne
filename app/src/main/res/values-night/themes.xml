@@ -1,0 +1,25 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.UBInOne" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/ub_blue</item>
+        <item name="colorPrimaryVariant">@color/black</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+        <item name="actionMenuTextColor">@color/inverted</item>
+        <item name="android:actionMenuTextColor">@color/inverted</item>
+    </style>
+
+    <color name="nav">@color/ub_brown</color>
+    <color name="inverted">@color/white</color>
+
+    <color name="free">#00FF00</color>
+    <color name="TBD">#FFEB3B</color>
+    <color name="occupied">#DC0000</color>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.ubinone.ui.home.HomeFragment"
+        android:label="@string/menu_overview"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_cremi"
+        android:name="com.example.ubinone.ui.cremi.CremiFragment"
+        android:label="@string/cremi"
+        tools:layout="@layout/fragment_cremi" />
+    <fragment
+        android:id="@+id/nav_date"
+        android:name="com.example.ubinone.ui.calendar.CalendarFragment"
+        android:label="@string/menu_calendar"
+        tools:layout="@layout/fragment_date" />
+    <fragment
+        android:id="@+id/nav_rooms"
+        android:name="com.example.ubinone.ui.rooms.RoomsFragment"
+        android:label="@string/menu_rooms"
+        tools:layout="@layout/fragment_rooms" />
+</navigation>

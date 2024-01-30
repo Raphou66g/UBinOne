@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_home_24"
+            android:title="@string/overview" />
+        <item
+            android:id="@+id/nav_cremi"
+            android:icon="@drawable/baseline_computer_24"
+            android:title="@string/cremi" />
+        <item
+            android:id="@+id/nav_date"
+            android:icon="@drawable/baseline_calendar_month_24"
+            android:title="@string/menu_calendar" />
+        <item
+            android:id="@+id/nav_rooms"
+            android:icon="@drawable/baseline_location_city_24"
+            android:title="@string/menu_rooms" />
+    </group>
+</menu>

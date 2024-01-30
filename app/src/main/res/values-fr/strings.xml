@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="navigation_drawer_open">Ouvrir le panneau de navigation</string>
+    <string name="navigation_drawer_close">Fermer le panneau de navigation</string>
+    <string name="nav_header_desc">En-tête de navigation</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="menu_overview">Menu Principale</string>
+    <string name="menu_rooms">Salles libres</string>
+    <string name="menu_calendar">Calendrier</string>
+    <string name="select_your_class">Choisissez votre classe</string>
+    <string name="class_picked">Classe sélectionnée avec succés</string>
+    <string name="overview">Aperçu</string>
+    <string name="no_course_today">Pas de cours</string>
+    <string name="today">Aujourd\'hui</string>
+    <string name="tomorrow">Demain</string>
+    <string name="language">Langue</string>
+    <string name="french">Français</string>
+    <string name="english">Anglais</string>
+    <string name="type_here">Taper ici</string>
+    <string name="reset_preferences">Réinitialiser\nles préférences ?</string>
+    <string name="reset">Réinitialiser ?</string>
+    <string name="about">À propos</string>
+
+    <string-array name="lang">
+        <item>@string/english</item>
+        <item>@string/french</item>
+    </string-array>
+    <string name="apply">Appliquer</string>
+    <string name="cancel">Annuler</string>
+    <string name="do_you_really_want_to_reset">Souhaitez-vous vraiment réinitialiser l\'application et ses préférences à leurs états d\'origine ?</string>
+    <string name="hold_to_reset">Maintenir pour réinitialiser</string>
+    <string name="overall">Vue d\'ensemble</string>
+    <string name="ground_floor">Rdc</string>
+    <string name="_1st_floor">1er</string>
+    <string name="_2nd_floor">2e</string>
+    <string name="free">Libre</string>
+    <string name="tbd">À déterminer</string>
+    <string name="occupied">Occupée</string>
+    <string name="please_note_self_service">Attention : certaines salles ne sont pas en libre-service. Renseignez-vous au préalable</string>
+</resources>
